@@ -3,10 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | My project (2)</title>
+    <title>Project 1</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
+  <header><strong>ALLGEM</strong>
+    <li><button class="home" type="button" @onclick="homeFf">Home</button></li>
+    <li><button class="aboutus" type="button" @onclick="aboutusFf">About Us</button></li>
+    <li><button class="contactus" type="button" @onclick="contactusFf">Contact Us</button></li>
+ </header>
+  <style>
+    header {
+        background: linear-gradient(90deg, rgb(0, 195, 255), blue, rgb(0, 2, 102));
+        background-size: 300% 300%;
+        color: white;
+        font-size: 16px;
+        padding: 20px 40px 10px 50px;
+        border: none;
+        width: 100%;
+        border-radius: none;
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+        opacity: 0.98;
+    }
+  </style>
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
