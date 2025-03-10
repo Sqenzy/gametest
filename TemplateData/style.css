@@ -29,18 +29,6 @@ header {
         z-index: 1000;
         opacity: 0.98;
        }
-.home{
-        background: none;
-        background-size: 300% 300%;
-        color: white;
-        font-size: 16px;
-        padding: none;
-        border: none;
-        border-radius: 8px;
-        width: 70px;
-        height: 35px;
-        margin-left: 900px;
-       }
 button{
         background: none;
         background-size: 300% 300%;
